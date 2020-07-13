@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "dist",
+    "rootDirs": [],
+    "module": "commonjs",
+    "lib": ["es6", "DOM", "ESNext"],
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "rootDir": "./",
+    "isolatedModules": true,
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    // "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "lib", "node_modules"
+  ],
+  "include": ["./rest-client", "rest-tester"]
+}
